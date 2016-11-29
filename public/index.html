@@ -22,16 +22,17 @@
             <th>Year</th>
         </tr>
       </thead>
-        <tr ng-repeat="opt in resume">
-          <td>{{opt.type}}</td>
-         <!-- <td>{{opt.degree}}</td> -->
-         <!-- <td>{{opt.last_year}}</td>-->
+        <tr ng-repeat="type in resume">
+          <td>{{type.edu}}</td>
+            <td>{{type.school}}</td>
+          <td>{{type.degree}}</td>
+          <td>{{type.last_year}}</td>
         </tr>
     </table>
 
 
       <h2>Skills</h2>
-        <p ng-repeat="opt in resume">{{opt.skill}}</p>
+        <p ng-repeat="type in resume">{{type.skill}}</p>
 
     <h2>Projects</h2>
     <table class="table">
@@ -43,10 +44,10 @@
         </tr>
       </thead>
       <tbody>
-        <tr ng-repeat="opt in resume">
-          <td>{{opt.project}}</td>
-          <td>{{opt.title}}</td>
-          <td>{{opt.description}}</td>
+        <tr ng-repeat="type in resume">
+          <td>{{type.project}}</td>
+          <td>{{type.title}}</td>
+          <td>{{type.description}}</td>
         </tr>
       </tbody>
     </table>
