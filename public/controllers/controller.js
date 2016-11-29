@@ -6,6 +6,7 @@ function($scope, $http){
   $http.get('/resume').success(function(response){
       $scope.resume = response;
       $scope.opt = "";
+      $scope.type = "";
     });
 
   };
