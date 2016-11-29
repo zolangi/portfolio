@@ -5,7 +5,7 @@ function($scope, $http){
   var refresh = function(){
   $http.get('/resume').success(function(response){
       $scope.resume = response;
-      $scope.type = "";
+      $scope.opt = "";
     });
 
   };
