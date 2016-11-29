@@ -22,7 +22,7 @@
             <th>Year</th>
         </tr>
       </thead>
-        <tr ng-repeat="type in resume">
+        <tr ng-repeat="type = 'edu' in resume">
           <td>{{type.edu}}</td>
           <td>{{type.school}}</td>
           <td>{{type.degree}}</td>
