@@ -31,7 +31,7 @@
 
 
       <h2>Skills</h2>
-        <p ng-repeat="sk in resume | filter {type: 'skill'}">{{sk.skill}}</p>
+        <p ng-repeat="sk in resume | filter: {type: 'skill'}">{{sk.skill}}</p>
 
     <h2>Projects</h2>
     <table class="table">
@@ -43,7 +43,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr ng-repeat="proj in resume | filter {type: 'project'}">
+        <tr ng-repeat="proj in resume | filter: {type: 'project'}">
           <td>{{proj.title}}</td>
           <td>{{proj.description}}</td>
         </tr>
