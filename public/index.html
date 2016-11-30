@@ -13,6 +13,7 @@
 <body>
   <div class="container" ng-controller="AppCtrl">
     <h1 align="center">Zolangi Ramirez</h1>
+    
     <h2>Education</h2>
     <table class="table">
       <thead>
@@ -29,10 +30,11 @@
         </tr>
     </table>
 
-
+      <br/>
       <h2>Skills</h2>
         <p ng-repeat="sk in resume | filter: {type: 'skill'}">{{sk.skill}}</p>
 
+    <br/>
     <h2>Projects</h2>
     <table class="table">
       <thead>
