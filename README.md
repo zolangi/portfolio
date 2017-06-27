@@ -1,2 +1,3 @@
 # About Me
-# Zolangi
+California State University, Los Angeles
+
