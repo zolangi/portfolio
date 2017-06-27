@@ -1,3 +1,5 @@
 # About Me
-California State University, Los Angeles
+Computer Science Student at California State University, Los Angeles
+Graduate: June 2018
+
 
