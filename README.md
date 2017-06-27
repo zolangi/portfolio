@@ -2,6 +2,7 @@
 My name is **Zolangi Ramirez**. I am a _Computer Science_ student at _California State University, Los Angeles_. My expected graduation date is June 2018 with a B.S. in Computer Science.
 
 **Linkedin:** https://www.linkedin.com/in/zolangiramirez
+
 - - - -
 # Technical Skills
   * Java
@@ -12,6 +13,7 @@ My name is **Zolangi Ramirez**. I am a _Computer Science_ student at _California
   * Windows
   * OS X
   * Eclipse
+  
 - - - -
 # Projects
   * Alexa Skill: Twin Peaks Facts
@@ -22,6 +24,8 @@ My name is **Zolangi Ramirez**. I am a _Computer Science_ student at _California
 
 - - - -
 # Work Experience
+Student Assistant - ECST Student Services at California State University Los Angeles - Los Angeles, CA
+February 2017 - Present (part-time)
 
 - - - -
 # Activities
