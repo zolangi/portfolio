@@ -43,4 +43,3 @@ February 2017 - Present (part-time)
   * Cal State LA 2016 World Educational Robotics Contest
     * Purpose: Robotic competition for students of age 6 to 18 
     * Description: Position was to be a judge and a facilitator to set up the contest venue, monitored students for a safe working environment, and judge the ability of the robot tasks during the competition
-
