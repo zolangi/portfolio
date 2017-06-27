@@ -14,6 +14,12 @@ My name is **Zolangi Ramirez**. I am a _Computer Science_ student at _California
   * Eclipse
 - - - -
 # Projects
+  * Alexa Skill: Twin Peaks Facts
+    * Worked on an Alexa Skill that generates random facts about the 1990’s tv show Twin Peaks
+    * Purpose: To learn how to use the Alexa Skills Kit
+    * Hardware: Amazon Echo Dot
+    * Software: Amazon Alexa, Lamda(Amazon Web Services)
+
 - - - -
 # Work Experience
 - - - -
