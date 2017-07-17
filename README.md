@@ -39,7 +39,7 @@ February 2017 - Present (part-time)
   * Society of Hispanic Engineers and Science Students(SHESS) - March 2016 to June 2016
   * The National Society of Collegiate Scholars(NSCS) - March 2014 to Present
   
-  ### Activities
+  ### Volunteer Work
   * Cal State LA 2016 World Educational Robotics Contest
     * Purpose: Robotic competition for students of age 6 to 18 
     * Description: Position was to be a judge and a facilitator to set up the contest venue, monitored students for a safe working environment, and judge the ability of the robot tasks during the competition
