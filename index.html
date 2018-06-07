@@ -24,16 +24,16 @@
             <th>Year</th>
         </tr>
       </thead>
-        <tr ng-repeat="educ in resume | filter: {type: 'edu'}">
-          <td>{{educ.school}}</td>
-          <td>{{educ.degree}}</td>
-          <td>{{educ.last_year}}</td>
+        <tr ng-repeat="edu in resume">
+          <td>{{edu.school}}</td>
+          <td>{{edu.degree}}</td>
+          <td>{{edu.last_year}}</td>
         </tr>
     </table>
 
       <br/>
       <h2>Skills</h2>
-        <p ng-repeat="sk in resume | filter: {type: 'skill'}">{{sk.skill}}</p>
+        <p ng-repeat="sk in resume">{{sk.skill}}</p>
 
     <br/>
     <h2>Projects</h2>
@@ -45,7 +45,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr ng-repeat="proj in resume | filter: {type: 'project'}">
+        <tr ng-repeat="proj in resume">
           <td>{{proj.title}}</td>
           <td>{{proj.description}}</td>
         </tr>
