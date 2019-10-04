@@ -6,29 +6,43 @@
   </ul>
 </div>
 </nav>
-<h3 class="title">{{ project.name | uppercase }}</h3>
-  <p>Description:</p>
-    <ul>
+
+<ul class="projects">
+  <li *ngFor = "let project of projects"
+  [class.selected]="project === selectedProject"
+  (click)="onSelect(project)">
+    {{project.name}}
+  </li>
+</ul>
+
+<div *ngIf="selectedProject">
+  <h3><strong>{{selectedProject.name | uppercase}}</strong></h3>
+  <strong>Description:</strong>
+  <ul>
       <li>
-         {{ project.description }}
+         {{ selectedProject.description }}
       </li>
-    </ul>
-  <br>
-  <p>Purpose:</p>
-    <ul>
-        <li>{{ project.purpose }}</li>
     </ul>
     <br>
-  <p>Hardware:</p>
+    <strong>Purpose:</strong>
     <ul>
-        <li>{{ project.hardware }}</li>
-    </ul>
+        <li>
+           {{ selectedProject.purpose }}
+        </li>
+      </ul>
   <br>
-  <p>Software:</p>
-    <ul>
-      <li>
-          {{ project.software }}
-      </li>
-    </ul>
-  
+<strong>Hardware:</strong>
+  <ul>
+      <li>{{ selectedProject.hardware }}</li>
+  </ul>
+<br>
+<strong>Software:</strong>
+  <ul>
+    <li>
+        {{ selectedProject.software }}
+    </li> 
+  </ul>
+  <br>
+<a href="{{ selectedProject.link }}">Link</a>
 
+</div>
