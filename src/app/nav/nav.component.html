@@ -1,0 +1,35 @@
+<div class="container">
+  <nav class="nav-bar" role="navigation" aria-label="main navigation">
+  <div class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" routerLink="/">
+        Home
+      </a>
+
+      <a class="navbar-item" routerLink="/projects">
+        Projects
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item" routerLink="/about">
+            Resume
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+          <a class="label" routerLink="/">
+            {{ appTitle }}
+          </a>
+      </div>
+    </div>
+  </div>
+</nav>
+</div>
