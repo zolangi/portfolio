@@ -15,7 +15,22 @@ export const PROJECTS: Project[] = [
         purpose: 'To learn how to use the Alexa Skills Kit',
         hardware: 'Amazon Echo Dot',
         software: 'Amazon Alexa, Lamda(Amazon Web Services)',
-        link: '',
-    }
-
+        link: 'https://www.amazon.com/Zolangi-Ramirez-Twin-Peaks-Facts/dp/B0716P8271/',
+    },
+    {
+      name: 'Alexa Skill: Silence of the Lambs Trivia Skill',
+      description: 'Silence of the Lambs Trivia, test your knowledge to see how well you know the movie.',
+      purpose: 'Just for fun',
+      hardware: 'Amazon Echo Dot',
+      software: 'Amazon Alexa, Lamda(Amazon Web Services)',
+      link: 'https://www.amazon.com/Silence-of-the-Lambs-Trivia/dp/B0797J51FN/',
+  },
+  {
+    name: 'Alexa Skill: Corpse Bride Trivia',
+    description: 'Alexa Skill trivia game to test the user’s knowledge of the movie',
+    purpose: 'To learn how to use the Alexa Skills Kit (trivia)',
+    hardware: 'Amazon Echo Dot',
+    software: 'Amazon Alexa, Lamda(Amazon Web Services)',
+    link: 'https://www.amazon.com/Zolangi-Ramirez-Corpse-Bride-Trivia/dp/B0788HVJP5/',
+},
 ];
